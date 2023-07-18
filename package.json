@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "this is a nodejs demo app",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package was uploaded"
+  },
+  "author": "Punnam Satpathy",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punnam14/nodejs-demo-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "bugs": {
+    "url": "https://github.com/punnam14/nodejs-demo-app/issues"
+  },
+  "homepage": "https://github.com/punnam14/nodejs-demo-app#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.18.2",
+    "jest": "^29.6.1"
+  }
+}
